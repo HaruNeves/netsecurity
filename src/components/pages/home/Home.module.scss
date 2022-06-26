@@ -1,0 +1,55 @@
+
+@import 'styles/variaveis';
+
+.nav{
+  width: 50;
+}
+
+.menu{
+  padding: 20px $padding-horizontal;
+  width: 50;
+  background-color: #14213d;
+}
+
+.header {
+background-color: #00234a;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100px;
+display: flex;
+align-items: center;
+padding-left: 250px;
+  &__text{
+    color: white;
+    font-size:x-large;
+    padding-left: 200px;
+    }
+}
+
+.telefone{
+  color: white;
+  display: inline-block;
+  justify-content: end;
+  padding-left: 1700px;
+}
+
+.email{
+  display: inline-block;
+  width: 15px;
+  margin-top: 3px;
+}
+
+.contato{
+  display: inline-block;
+  color: white;
+  margin-left: 5px;
+}
+
+.alinhar{
+  display: flex;
+  flex-direction: row;
+}
+
+.imagemLogo{
+  width: 250px;
+}
