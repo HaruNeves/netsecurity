@@ -1,4 +1,3 @@
-
 import styles from './Home.module.scss';
 import logo from '../../../assets/logo-negativo-img.png';
 import email from '../../../assets/mail.png';
@@ -26,45 +25,7 @@ export default function Home() {
 						(11)5089-2060
 					</div>
 				</div>
-			</nav>
-
-			<header className={styles.header}>
-
-				<img src={logo} className={styles.imagemLogo} />
-
-				<Navbar bg="primary" variant="dark">
-						<Nav>
-							<div className="nav-list">
-								<h2>Unibrary</h2>
-								<Link to="./home" className="li">Início</Link>
-								<Link to="./about" className="li">Quem Somos</Link>
-								{/* <Link to="./reserva" className="li">Reserva</Link>
-              <Link to="./contato" className="li">Contato</Link> */}
-							</div>
-						</Nav>
-				</Navbar>
-				</header>
-				</main>
-				/*       
-				<div className={styles.header__text}>
-        QUEM SOMOS
-				</div> 
-				<div className={styles.header__text}>
-          SOLUÇÕES
-				</div>
-				<div className={styles.header__text}>
-          SEGMENTO
-				</div>
-				<div className={styles.header__text}>
-          CONTEÚDOS
-				</div>
-				<div className={styles.header__text}>
-          BLOG
-				</div>
-				<div className={styles.header__text}>
-          CONTATO
-				</div>
-			</header>
-			<div> */
+			</nav>			
+		</main>
 	);
 }
